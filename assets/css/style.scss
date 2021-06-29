@@ -167,7 +167,7 @@ input {
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--first-color);
+    background-color: transparent;
 }
 
 /*====================== NAV =============================*/
@@ -196,7 +196,7 @@ input {
         position: fixed;
         background-color: var(--body-color);
         top: 0;
-        right: -100;
+        right: -100%;
         width: 70%;
         height: 100%;
         box-shadow: -1px 0 4px hsla(var(--hue-color), 64%, 15%, .15);
@@ -235,6 +235,23 @@ input {
     right: 0;
 }
 
+/*==================== HOME ====================*/
+.home__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 83%;
+}
+
+.home__container {
+    position: relative;
+    height: calc(100vh - var(--header-height));
+    align-items: center;
+    row-gap: 3rem;
+}
 
 
 
