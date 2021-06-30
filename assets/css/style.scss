@@ -400,3 +400,21 @@ input {
 .about__img-two:hover {
     transform: var(--img-scale);
 }
+
+/*=================== DISCOVER =======================*/ 
+.discover__card {
+    position: relative;
+    width: 200px;
+    overflow: var(--img-hidden);
+}
+
+.discover__data {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1rem;
+}
+
+.discover__title,
+.discover__description {
+    color: var(--white-color);
+}
