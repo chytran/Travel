@@ -460,4 +460,24 @@ input {
 .discover__description {
   color: var(--white-color);
 }
+
+.discover__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-25);
+}
+
+.discover__description {
+  display: block;
+  font-size: var(--smaller-font-size);
+}
+
+.discover__img {
+  -webkit-transition: var(--img-transition);
+  transition: var(--img-transition);
+}
+
+.discover__img:hover {
+  -webkit-transform: var(--img-scale);
+          transform: var(--img-scale);
+}
 /*# sourceMappingURL=style.css.map */

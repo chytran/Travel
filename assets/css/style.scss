@@ -406,15 +406,36 @@ input {
     position: relative;
     width: 200px;
     overflow: var(--img-hidden);
-}
-
-.discover__data {
+  }
+  
+  .discover__data {
     position: absolute;
     bottom: 1.5rem;
     left: 1rem;
-}
-
-.discover__title,
-.discover__description {
+  }
+  
+  .discover__title, 
+  .discover__description {
     color: var(--white-color);
-}
+  }
+  
+  .discover__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-25);
+  }
+  
+  .discover__description {
+    display: block;
+    font-size: var(--smaller-font-size);
+  }
+  
+  .discover__img {
+    transition: var(--img-transition);
+  }
+  
+  .discover__img:hover {
+    transform: var(--img-scale);
+  }
+  
+
+  
